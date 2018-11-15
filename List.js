@@ -14,6 +14,10 @@ class List extends Component {
     this.renderNomes(this.props.listaPregao);
   }
   renderNomes(x) {
+    //PT- funçao tanto para ajustar as keys numa array e passar para a primeira linha da tabela, e o resto tambem atraves de uma variavel de estado
+ 
+    //ENG- function to put keys an array to be rendered on the first line of the table.
+    
     if (x[0] === undefined) {
       //nao faz nada
     } else {
