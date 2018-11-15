@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import List from './List'
 
 const oferta1 = {
   cor: "branco",
@@ -40,7 +41,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Pregao listaPregao={LISTADASOFERTAS}/>
+        <List listaPregao={LISTADASOFERTAS}/>
       </div>
     );
   }
