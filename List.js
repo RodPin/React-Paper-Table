@@ -23,11 +23,6 @@ class List extends Component {
     } else {
       var keys = Object.keys(x[0]);
       this.setState({ keys });
-      var data = [];
-      for (var i = 0; i < x.length; i++) {
-        data.push(Object.values(x[i]));
-      }
-      this.setState({ data });
       this.setState({ listaPregao: this.props.listaPregao });
     }
   }
