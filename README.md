@@ -1,10 +1,10 @@
 # React-Paper-Table
 Use paper to create a Table
 
-PT- Array de objetos para passar por props:
+PT- Array de objetos para passar por props para o componente 'List':
 
 [{},{},{},{},{},{}]
 
-ENG- pass through props an array of objects:
+ENG- Pass to 'List' through props an array of objects:
 
 [{},{},{},{},{},{}]
