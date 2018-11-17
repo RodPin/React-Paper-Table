@@ -4,7 +4,7 @@ import List from './List'
 const oferta1 = {
   cor: "branco",
   ano: "2015",
-  fabricante: "Renatinho",
+  mecanico: "Renatinho",
   marca: "Ferrari",
   seguro: "Golden Cross",
   usuario: "rodd123@gmail.com"
@@ -13,7 +13,7 @@ const oferta1 = {
 const oferta2 = {
   cor: "azul",
   ano: "2015",
-  fabricante: "Renatinho",
+  mecanico: "Renatinho",
   marca: "Mercedes",
   seguro: "sulamerica",
   usuario: "renataotoaaot3@gmail.com"
@@ -21,7 +21,7 @@ const oferta2 = {
 const oferta3 = {
   cor: "preto",
   ano: "2013",
-  fabricante: "Bob",
+  mecanico: "Bob",
   marca: "Palho",
   seguro: "StrawBerry",
   usuario: "ricardo21123@gmail.com"
@@ -29,7 +29,7 @@ const oferta3 = {
 const oferta4 = {
   cor: "amarelo",
   ano: "2015",
-  fabricante: "Renatinho",
+  mecanico: "Renatinho",
   marca: "Lamborguini",
   seguro: "watch",
   usuario: "keaokeoao123@gmail.com"
