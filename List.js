@@ -38,10 +38,7 @@ class List extends Component {
                   {this.state.keys.map((x, i) => {
                     return (
                       <TableCell
-                        className="ordenar"
-                        onClick={() => {
-                          this.ordenar(x);
-                        }}
+      
                       >
                         {x}
                       </TableCell>
@@ -51,8 +48,7 @@ class List extends Component {
               </TableHead>
               <TableBody>
                 {this.state.listaPregao.map((x, index) => {
-                  console.log("x - " + index);
-                  console.log(x);
+               
                   let campos = Object.values(x);
 
                   return (
