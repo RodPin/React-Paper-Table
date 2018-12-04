@@ -5,13 +5,7 @@ import ReactTable from "react-table";
 import "react-table/react-table.css";
 
 class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      items: [],
-      keys: []
-    };
-  }
+
 
   render() {
     const data = [
