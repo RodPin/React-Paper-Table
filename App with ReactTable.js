@@ -175,7 +175,9 @@ class App extends Component {
     ];
 
     return (
-      <div className="container">
+      <div className="container"> 
+       // usar a prop defaultPageSize para dizer quantas colunas tera a tabela(consequentemente seu tamanho..
+      //usar className do css pra dizer qual ser seu width ....
         <ReactTable data={data} columns={columns} />
       </div>
     );
